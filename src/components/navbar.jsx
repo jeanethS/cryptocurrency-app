@@ -59,7 +59,13 @@ function Navbar() {
           <Link to="/"> Crytoverse </Link>
         </Typography.Title>
       </div>
-      <Menu onClick={handleClick} theme="dark" items={menuItems}></Menu>
+      <Menu
+        onClick={handleClick}
+        theme="dark"
+        items={menuItems}
+        defaultSelectedKeys={["1"]}
+        style={{ color: "white" }}
+      ></Menu>
     </div>
   );
 }
