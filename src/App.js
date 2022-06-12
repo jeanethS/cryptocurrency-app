@@ -32,20 +32,20 @@ const App = () => {
             </Routes>
           </div>
         </Layout>
-      </div>
-      <div className="footer">
-        <Typography.Title
-          level={5}
-          style={{ color: "white", textAlign: "center" }}
-        >
-          CryptoVerse <br />
-          All rights reserverd
-        </Typography.Title>
-        <Space>
-          <Link to="/"> Home </Link>
-          <Link to="/"> Exchanges </Link>
-          <Link to="/"> News </Link>
-        </Space>
+        <div className="footer">
+          <Typography.Title
+            level={5}
+            style={{ color: "white", textAlign: "center" }}
+          >
+            CryptoVerse <br />
+            All rights reserverd
+          </Typography.Title>
+          <Space>
+            <Link to="/"> Home </Link>
+            <Link to="/"> Exchanges </Link>
+            <Link to="/"> News </Link>
+          </Space>
+        </div>
       </div>
     </div>
   );
